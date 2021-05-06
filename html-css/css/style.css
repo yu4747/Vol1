@@ -50,6 +50,19 @@ header{
     font-size: 15px;
 }
 
+#first-v{
+    height:770px;
+    background-image:url("../img/bg1.jpg");
+    background-size:cover;
+}
+
+.first-v-wrap{
+    padding:285px 0 255px;
+    margin:0 auto;
+    width:250px;
+    text-align: center;
+}
+
 footer{
     background-color:#191919;
     height: 50px;
