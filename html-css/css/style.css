@@ -52,15 +52,29 @@ header{
 
 #first-v{
     height:770px;
-    background-image:url("../img/bg1.jpg");
+    background-image:url("../img/background.png");
     background-size:cover;
 }
 
 .first-v-wrap{
     padding:285px 0 255px;
     margin:0 auto;
-    width:250px;
+    width:200px;
     text-align: center;
+}
+
+.first-v-title {
+    margin-bottom:150px;
+    font-weight:bold;
+    font-size: 27px;
+}
+.first-v-title::after {
+    display:block;
+    content:"";
+    width:100px;
+    margin:20px auto 0;
+
+    border-top:1px solid #FFF;
 }
 
 footer{
