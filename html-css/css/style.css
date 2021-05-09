@@ -32,6 +32,10 @@ header{
     color: #fff;
 
     background-color: black;
+
+    position:absolute;
+
+    z-index:10;
 }
 
 .header-logo {
@@ -54,12 +58,18 @@ header{
     height:770px;
     background-image:url("../img/background.png");
     background-size:cover;
+    color:#fff;
+    position:relative;
+}
+
+.fa-door-open {
+    padding-right: 4px;
 }
 
 .first-v-wrap{
     padding:285px 0 255px;
     margin:0 auto;
-    width:200px;
+    width: 250px;
     text-align: center;
 }
 
@@ -75,6 +85,24 @@ header{
     margin:20px auto 0;
 
     border-top:1px solid #FFF;
+}
+
+.first-v-btn {
+    width: 200px;
+    height:50px;
+    text-align:center;
+    font-weight:bold;
+    
+    border:none;
+
+    border-radius: 5px;
+
+    background: linear-gradient(-90deg,#283C86,#06BEB6);
+
+    box-shadow:0px 5px #070707;
+    font-weight:bold;
+    font-size:15px;
+    color:#FFF;
 }
 
 footer{
