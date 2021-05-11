@@ -129,18 +129,6 @@ header{
 
 .entry-btn {
     width:320px;
-    height:50px;
-
-    border: none;
-
-    border-radius: 5px;
-
-    background: linear-gradient(90deg, #06BEB6, #1a719a);
-
-    box-shadow:0px 5px 0px #070707;
-    font-size: 15px;
-    color: #fff;
-    text-shadow: 0px 5px 0px #07070729;
 }
 
 
