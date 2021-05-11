@@ -105,6 +105,45 @@ header{
     color:#FFF;
 }
 
+#entry {
+   background-color: #FFF;
+}
+
+.fa-door-open {
+    padding-right: 4px;
+}
+
+.entry-wrap {
+    padding:175px 0;
+    margin:0 auto;
+    width: 320px;
+    text-align: center;
+}
+
+.entry-title {
+    color:#191919;
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.entry-btn {
+    width:320px;
+    height:50px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: linear-gradient(90deg, #06BEB6, #1a719a);
+
+    box-shadow:0px 5px 0px #070707;
+    font-size: 15px;
+    color: #fff;
+    text-shadow: 0px 5px 0px #07070729;
+}
+
+
 footer{
     background-color:#191919;
     height: 50px;
@@ -114,6 +153,6 @@ footer{
     text-align: center;
     line-height: 50px;
     font-weight: bold;
-    font-size; 12px;
+    font-size: 12px;
     color: #FFF;
 }
