@@ -123,33 +123,41 @@ header{
 }
 
 .about-item{
-   width:300px;
-   height:312px;
-   background-color:#FFF;
-   text-align:center;
-   padding:30px 50px 50px;
-   margin:30px;
+    width:300px;
+    height:312px;
+    background-color:#FFF;
+    text-align:center;
+    margin-right: 100px;
+    padding:30px 50px 50px;
 }
 
-.about-item__title{
-   font-style:bold;
-   font-size:22px;
+.about-item:nth-child(3),.about-item:nth-child(6){
+    margin-right:0;
+}
+
+.about-item:nth-child(n+4):nth-child(-n+6){ 
+    /* 4~6個目のabout-itemにmarginをつける */ margin-top:47px;
+}
+
+.about-item-title{
+    font-style:bold;
+    font-size:22px;
 }
 
 .about-item__img img{
-   width:122px;
-   height:122px;
-   margin:20px auto 25px;
+    width:120px;
+    height:120px;
+    margin:20px auto 25px;
 }
 
 .about-item__desc{
-   font-size:13px;
+    font-size:13px;
 }
 
 .about-title{
     display:flex;
     width: 250px;
-    padding-bottom:60px;
+    padding-bottom:50px;
     justify-content: center;
     align-items:center;
     font-size: 18px;
@@ -181,7 +189,7 @@ header{
 }
 
 #entry {
-   background-color: #FFF;
+    background-color: #FFF;
 }
 
 .fa-door-open {
@@ -244,7 +252,7 @@ header{
 
 .news-wrap{
     display:flex;
-   justify-content:space-between;
+    justify-content:space-between;
 }
 
 .news-item{
@@ -296,20 +304,10 @@ header{
     width:200px;
 }
 
-.contact-title::before{
-    content:"";
+.contact-title::before .contact-title::after{
     width:30px;
     border-top: 1px solid #FFF;
     margin-right:24px;
-    content:"";
-}
-
-.contact-title::after{
-    content:"";
-    width:30px;
-    border-top: 1px solid #FFF;
-    margin-left:24px;
-    content:"";
 }
 
 .contact-caution{
@@ -325,25 +323,24 @@ header{
     font-size:15px;
 }
 
-input,textarea,select{
-    width:100%;
-    border-radius: 7px;
-}
-
 select{
     appearance: none;
 }
 
-.contact-wrap:nth-of-type(3)::after{
+.contact-box:nth-of-type(3){
+    position:relative;
+}
+
+.contact-box:nth-of-type(3)::after{
+    position:absolute;
     background-image: url(../img/arrow.png);
     width:15px;
     height:15px;
-    background-size: cover;
+    background-size: 100%;
     display:block;
     content:"";
     top:60%;
-    margin:20px;
-    /* right:15px; */
+    right:15px;
 }
 
 input,select,textarea{
