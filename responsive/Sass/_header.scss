@@ -1,0 +1,40 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+
+  position: absolute;
+  z-index: 20;
+
+  background: black;
+
+  nav {
+    width: 45%;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+nav {
+  width: 45%;
+  ul {
+    display: flex;
+    justify-content: sapce-between;
+    font-size: 1.5rem;
+  }
+}
+
+.hd-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.ham {
+  display: none;
+}
