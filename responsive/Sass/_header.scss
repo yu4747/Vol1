@@ -2,35 +2,33 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 0 2rem;
   color: #fff;
 
-  position: absolute;
-  z-index: 20;
+  background-color: inherit;
 
-  background: black;
+  position: absolute;
+  // 20-10?
+  z-index: 20;
 
   nav {
     width: 45%;
     ul {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
+      padding: 2.2rem 0;
+
+      li {
+        margin-left: 5.5rem;
+        font-size: 1.5rem;
+      }
     }
   }
 }
 
-nav {
-  width: 45%;
-  ul {
-    display: flex;
-    justify-content: sapce-between;
-    font-size: 1.5rem;
-  }
-}
-
 .hd-logo {
+  padding: 2rem 0;
   font-size: 1.8rem;
   font-weight: bold;
 }
