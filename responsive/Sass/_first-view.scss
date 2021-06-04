@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.first-v__wrap {
+.first-v-wrap {
   width: 250px;
   height: 230px;
   display: flex;
@@ -34,7 +34,7 @@
   }
 }
 
-.fv-btn {
+.first-v-btn {
   width: 200px;
   height: 50px;
   background: linear-gradient(to right, $sky, $navy);
@@ -42,8 +42,4 @@
   border: none;
   border-radius: 5px;
   box-shadow: 0 5px #070707;
-
-  .btn-icon {
-    margin-right: 5px;
-  }
 }

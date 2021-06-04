@@ -226,6 +226,46 @@ body {
   margin-left: 2rem;
 }
 
+#about {
+  background-color: #f8f8f8;
+}
+
+.about-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-item {
+  width: 27%;
+  background-color: #fff;
+  padding: 40px 3.5vw 30px;
+}
+
+.about-item:nth-child(n + 4) {
+  margin-top: 46px;
+}
+
+.about-item-title {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.about-item__img {
+  width: 122px;
+  height: 122px;
+  margin: 20px auto 25px;
+}
+
+.about-item__img img {
+  width: 122px;
+  height: 100%;
+}
+
+.about-item__desc {
+  margin-top: 35px;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -253,7 +293,7 @@ header nav ul li {
   font-size: 1.5rem;
 }
 
-.hd-logo {
+.header-logo {
   padding: 2rem 0;
   font-size: 1.8rem;
   font-weight: bold;
@@ -271,7 +311,7 @@ header nav ul li {
   position: relative;
 }
 
-.first-v__wrap {
+.first-v-wrap {
   width: 250px;
   height: 230px;
   display: flex;
@@ -299,7 +339,7 @@ header nav ul li {
   margin: 2rem auto 0;
 }
 
-.fv-btn, .entry-btn {
+.first-v-btn, .entry-btn {
   width: 200px;
   height: 50px;
   background: linear-gradient(to right, #06beb6, #283c86);
@@ -309,12 +349,8 @@ header nav ul li {
   box-shadow: 0 5px #070707;
 }
 
-.fv-btn .btn-icon, .entry-btn .btn-icon {
-  margin-right: 5px;
-}
-
 #entry {
-  height: 47.7rem;
+  height: 48.2rem;
   width: 100%;
   position: relative;
 }
@@ -331,13 +367,17 @@ header nav ul li {
   transform: translate(-50%, -50%);
 }
 
-.entry-copy {
-  font-weight: bold;
-  font-size: 18rem;
-}
-
 .entry-btn {
   width: 100%;
+  height: 5rem;
+}
+
+.entry-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #191919;
+  margin-bottom: 4rem;
+  text-align: center;
 }
 
 footer {
