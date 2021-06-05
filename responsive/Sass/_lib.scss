@@ -7,11 +7,34 @@ body {
   line-height: 1.67;
 }
 
+@mixin pc {
+  @media (min-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
 .inner {
   // 1366/1100=80%
   width: 80%;
   padding: 90px 0;
   margin: 0 auto;
+
+  @include tab {
+    padding: 50px;
+    width: 90%;
+  }
 }
 
 $sky: #06beb6;
@@ -24,6 +47,10 @@ $navy: #283c86;
   font-size: 1.8rem;
   font-style: italic;
   margin-bottom: 60px;
+
+  @include tab {
+    margin-bottom: 40px;
+  }
 
   &--b {
     font-weight: bold;
