@@ -28,8 +28,8 @@ console.log(elem.parentElement);
 
 const elem2 = document.querySelector("img");
 
-// console.log(elem2.getAttribute("src"));
-elem.setAttribute("src", "https://placehold.it/400×200");
+//console.log(elem2.getAttribute("src"));
+elem.setAttribute("src", "https://placehold.jp/400x200.png");
 
 const newItem = document.createElement("li");
 newItem.textContent = "新しいアイテム";
