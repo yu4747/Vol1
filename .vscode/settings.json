@@ -14,4 +14,23 @@
   "cSpell.words": [
     "hoge"
   ]
+
+  //エクスプローラーの表示を消す
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+    "datyou-game":true
+    "dom-practice":true
+    "js-syo":true
+    "responsive":true
+    "saikoro":true
+    "saito-san-game":true
+    "sample.txt":true
+    "intro-git2":true
+    "gitpractive":true
+    "js-practice1":true
+  }
 }
