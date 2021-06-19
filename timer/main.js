@@ -1,5 +1,5 @@
 let timer;
-let sec = 10;
+let sec = 0;
 
 const change = document.getElementById("changeBtn"); //setTime
 const start = document.getElementById("startBtn");
