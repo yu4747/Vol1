@@ -1,0 +1,11 @@
+.adjust-wrap {
+  display: flex;
+}
+
+.fillOut-box {
+  margin: 0 20px;
+}
+
+.button {
+  margin: 0 10px;
+}
