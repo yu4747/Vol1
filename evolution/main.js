@@ -2,9 +2,6 @@ const evolutionEnjin = document.getElementById("evolution-Img");
 const evolve = document.getElementById("evolveBtn");
 const reset = document.getElementById("resetBtn");
 
-evolutionEnjin.style.width = "180px";
-evolutionEnjin.style.height = "230px";
-
 const imgElement = document.getElementById("enjin-img");
 const html = imgElement.innerHTML;
 
