@@ -46,6 +46,7 @@ decide.addEventListener("click", function () {
       } else {
         result.textContent = "結果：引き分け";
       }
+      break;
     }
   }
 });
