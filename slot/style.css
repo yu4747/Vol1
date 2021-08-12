@@ -5,3 +5,8 @@
 .start {
   margin: 10px;
 }
+
+.p {
+  display: flex;
+  justify-content: center;
+}
