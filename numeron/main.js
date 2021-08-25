@@ -1,33 +1,29 @@
-let numbers = "0123456789";
-let threeNum = "";
-
+let numberscount = 0;
 let randoms = [];
-let min = 0,
-  max = 9;
+let min = 0;
+let max = 9;
 
-function random(min, max) {
-  return (numbers = Math.floor(Math.random() * (max - min + 1)) + min);
-  return (numbers += 1);
-  for (i = min; i <= max; i++) {
-    while (numbers <= 3) {
-      let tmp = intRandom(min, max);
-      if (!randoms.includes(tmp)) {
-        randoms.push(tmp);
-        break;
-      }
+for (i = min; i <= max; i++) {
+  while (numberscount <= 3) {
+    let virtualnum = intRandom(min, max);
+    if (!randoms.includes(virtualnum)) {
+      randoms.push(virtualnum);
+      numberscount += 1;
+      break;
     }
   }
 }
 
-random();
-console.log(numbers);
+function intRandom(min, max) {
+  return (randomnum = Math.floor(Math.random() * (max - min + 1)) + min);
+}
 
-// for (let i = 0; i < 3; i++) {
-//   threeNum += numbers[Math.floor(Math.random() * 10)];
-//   console.log(threeNum);
-// }
+intRandom();
+console.log(randomnum);
 
 let Box = document.getElementById("answer").value;
+let array = Box.split("");
+console.log(array);
 
 const Btn = document.getElementById("kotaeawase");
 Btn.addEventListener("click", function () {
@@ -41,6 +37,3 @@ Btn.addEventListener("click", function () {
 });
 
 function checkResult() {}
-
-// 使ったサイト
-https://pisuke-code.com/js-create-non-overlap-randoms/
